@@ -1,0 +1,43 @@
+/* Our own rules for the whole site. Every page links this file after Bootstrap,
+   so these rules win over the rules of Bootstrap that are equally specific. */
+
+/* the name of the site in the navbar a little larger than Bootstrap makes it */
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* the top of the home page: a dark blue band instead of the grey jumbotron of Bootstrap */
+.hero {
+    background-color: #1f3a5f;
+    color: white;
+}
+
+/* the photo: a circle with a white edge, never wider than 220 pixels */
+.photo {
+    max-width: 220px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+/* a thin coloured line on the left of every card of the site */
+.card {
+    border-left: 4px solid #1f3a5f;
+}
+
+/* placeholders that still wait for real text - delete this rule when none are left */
+.todo {
+    background-color: #fff3cd;
+}
+
+/* the footer: centred on narrow screens ... */
+.site-footer {
+    text-align: center;
+}
+
+/* ... and on the right from 768 pixels on - mobile first */
+@media (min-width: 768px) {
+    .site-footer {
+        text-align: right;
+    }
+}

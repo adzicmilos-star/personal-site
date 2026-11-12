@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Milos Adzic - Studies and interests</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/site.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- 1. the navbar: here the third link is the active one -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html">Milos Adzic</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="career.html">Career and skills</a></li>
+                <li class="nav-item active"><a class="nav-link" href="interests.html">Studies and interests</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1>Studies and interests</h1>
+
+        <!-- 2. two columns from 768 pixels on: the course on the left, its parts on the right -->
+        <h2 class="mt-4">Developing Software Solutions</h2>
+        <div class="row">
+            <div class="col-md-7">
+                <p>
+                    The course of professor <strong>Aleksandar Kartelj</strong> shows how web applications work and
+                    how to build one: from a single HTML page to a complete system with a web application,
+                    a RESTful service and a database.
+                </p>
+                <p>
+                    Everything about it is public:
+                    <a href="https://kartelj.github.io/ekof_dss/" target="_blank">the web site of the course</a>.
+                </p>
+                <!-- an alert that the visitor can close -->
+                <div class="alert alert-info alert-dismissible fade show">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    This site is <strong>Homework 1</strong> of the course.
+                </div>
+            </div>
+            <div class="col-md-5">
+                <!-- a list group: every part of the course with its points in a badge -->
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center active">
+                        Homework 1: a personal site <span class="badge badge-light badge-pill">15</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Homework 2: a web application <span class="badge badge-primary badge-pill">15</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Project: a complete system <span class="badge badge-primary badge-pill">30</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Final exam <span class="badge badge-primary badge-pill">40</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 3. an unordered list with a nested list -->
+        <h2 class="mt-4">What I learned for this site</h2>
+        <ul>
+            <li>HTML - the content of a page
+                <ul>
+                    <li>headings, paragraphs and lists</li>
+                    <li>images, links and tables</li>
+                    <li>forms</li>
+                </ul>
+            </li>
+            <li>CSS - the look of a page</li>
+            <li>Bootstrap - pages that adapt to every screen</li>
+        </ul>
+
+        <!-- 4. my free time: three cards -->
+        <h2 class="mt-4">Free time</h2>
+        <div class="row">
+            <div class="col-sm-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title todo">[TODO: interest 1]</h4>
+                        <p class="card-text todo">[TODO: one sentence about it]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title todo">[TODO: interest 2]</h4>
+                        <p class="card-text todo">[TODO: one sentence about it]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title todo">[TODO: interest 3]</h4>
+                        <p class="card-text todo">[TODO: one sentence about it]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. the footer -->
+    <div class="site-footer bg-dark text-white p-3 mt-4">
+        &copy; 2026 Milos Adzic - Homework 1 of the course Developing Software Solutions.
+    </div>
+</body>
+
+</html>

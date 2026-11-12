@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Milos Adzic - Career and skills</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/site.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- 1. the navbar: here the second link is the active one -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html">Milos Adzic</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="career.html">Career and skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="interests.html">Studies and interests</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1>Career and skills</h1>
+        <p class="lead">About fifteen years in the software industry.</p>
+
+        <!-- 2. the table of jobs: it scrolls sideways on a narrow screen (table-responsive) -->
+        <h2 class="mt-4">Where I have worked</h2>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead class="thead-dark">
+                    <tr><th>Years</th><th>Company</th><th>What I did</th></tr>
+                </thead>
+                <tbody>
+                    <!-- the yellow row (table-warning) marks the present job -->
+                    <tr class="table-warning">
+                        <td class="todo">[TODO: year] - today</td>
+                        <td>Partner Fund Services</td>
+                        <td class="todo">[TODO: your role, in one line]</td>
+                    </tr>
+                    <tr>
+                        <td class="todo">[TODO: years]</td>
+                        <td class="todo">[TODO: company]</td>
+                        <td class="todo">[TODO: what you did]</td>
+                    </tr>
+                    <tr>
+                        <td class="todo">[TODO: years]</td>
+                        <td class="todo">[TODO: company]</td>
+                        <td class="todo">[TODO: what you did]</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 3. the skills: cards with a badge - one in a line on a phone, two from 576 pixels, three from 992 -->
+        <h2 class="mt-4">Skills</h2>
+        <div class="row">
+            <div class="col-sm-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">C# <span class="badge badge-success">experienced</span></h4>
+                        <p class="card-text">Variables, decisions, loops and reports - the language of most of my programs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Visual Basic <span class="badge badge-success">experienced</span></h4>
+                        <p class="card-text">The second language that I wrote programs in.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">HTML, CSS, Bootstrap <span class="badge badge-warning">learning</span></h4>
+                        <p class="card-text">New to me in 2026 - this site is the first result.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Python, FastAPI <span class="badge badge-secondary">next</span></h4>
+                        <p class="card-text">The following modules of the course: web applications written in Python.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">SQL, databases <span class="badge badge-secondary">next</span></h4>
+                        <p class="card-text">The relational model, SQLite and PostgreSQL.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">RESTful services <span class="badge badge-secondary">next</span></h4>
+                        <p class="card-text">Services that send data instead of pages - the end of the course.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. an ordered list: the order matters here -->
+        <h2 class="mt-4">What my work taught me</h2>
+        <ol>
+            <li>Understand the problem of the user before you write a line of code.</li>
+            <li>A program that is easy to read is easy to repair.</li>
+            <li class="todo">[TODO: a third lesson of your own]</li>
+        </ol>
+    </div>
+
+    <!-- 5. the footer -->
+    <div class="site-footer bg-dark text-white p-3 mt-4">
+        &copy; 2026 Milos Adzic - Homework 1 of the course Developing Software Solutions.
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The personal web presentation of Milos Adzic">
+    <title>Milos Adzic - Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- our own rules come after Bootstrap, so that they win when both set the same property -->
+    <link rel="stylesheet" href="css/site.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- 1. the navbar, the same on every page: below 768 pixels the links hide behind the button -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html">Milos Adzic</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="career.html">Career and skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="interests.html">Studies and interests</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 2. the top of the page: the photo next to the name - one under the other on a phone -->
+    <div class="hero py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center mb-3 mb-md-0">
+                    <img src="images/photo.svg" alt="A photo of Milos Adzic" class="photo img-fluid">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="display-4">Milos Adzic</h1>
+                    <p class="lead">Fifteen years in the software industry - and now learning how the web is built.</p>
+                    <a href="career.html" class="btn btn-light">My career</a>
+                    <a href="contact.html" class="btn btn-outline-light">Contact me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <!-- 3. a few paragraphs about me -->
+        <h2>About me</h2>
+        <p>
+            Welcome! My name is <strong>Milos Adzic</strong>. I have spent about fifteen years in the software
+            industry, and I work at <em>Partner Fund Services</em>, a firm that does fund administration and
+            fund accounting for private funds.
+        </p>
+        <p>
+            I wrote programs in <strong>C#</strong> and <strong>Visual Basic</strong>, but I had never made a web
+            page. This site is my first one: I made it with HTML, CSS and Bootstrap for the course
+            <em>Developing Software Solutions</em>.
+        </p>
+        <p class="todo">
+            [TODO: two or three sentences of your own - where you live, what you like about your work,
+            why you study.]
+        </p>
+
+        <!-- 4. three cards that lead to the other pages: one, two or three in a line -->
+        <h2 class="mt-4">On this site</h2>
+        <div class="row">
+            <div class="col-sm-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Career and skills</h4>
+                        <p class="card-text">Where I have worked, and the technologies I know.</p>
+                        <a href="career.html" class="btn btn-outline-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Studies and interests</h4>
+                        <p class="card-text">The course that this site is made for, and my free time.</p>
+                        <a href="interests.html" class="btn btn-outline-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Contact</h4>
+                        <p class="card-text">A short form for a message to me.</p>
+                        <a href="contact.html" class="btn btn-outline-primary btn-sm">Write to me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. the footer, the same on every page: its alignment is set in css/site.css -->
+    <div class="site-footer bg-dark text-white p-3 mt-4">
+        &copy; 2026 Milos Adzic - Homework 1 of the course Developing Software Solutions.
+    </div>
+</body>
+
+</html>
