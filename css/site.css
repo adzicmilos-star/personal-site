@@ -25,11 +25,6 @@
     border-left: 4px solid #1f3a5f;
 }
 
-/* placeholders that still wait for real text - delete this rule when none are left */
-.todo {
-    background-color: #fff3cd;
-}
-
 /* the footer: centred on narrow screens ... */
 .site-footer {
     text-align: center;
